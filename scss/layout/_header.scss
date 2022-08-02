@@ -1,0 +1,46 @@
+.header{
+    position: relative;
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,hsla(111, 55%, 64%, 0.8),hsla(160, 64%, 43%, 0.8)), url(../image/landscape-2990060_1920.jpg);
+    background-size: cover;
+    background-position: bottom;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75vh, 0% 100%);
+    &__logo-box{
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+    &__logo{
+        height: 4rem;
+    }
+    &__text-box{
+        position: absolute;
+        text-transform: uppercase;
+        color: #fff;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    
+        backface-visibility: hidden;
+    
+    }
+}
+
+.heading-primary{
+    margin-bottom: 6rem;
+    &__main{
+        display: block;
+        font-size: 6rem;
+        letter-spacing: 3.5rem;
+        font-weight: 400;
+        animation: jumpInleft 1s ease-out;
+    }
+    &__sub{
+        display: block;
+        letter-spacing: 1.74rem;
+        font-size: 2rem;
+        font-weight: 700;
+        animation: jumpInright 1s ease-out;
+    }
+}

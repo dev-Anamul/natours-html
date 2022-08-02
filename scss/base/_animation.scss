@@ -1,0 +1,37 @@
+@keyframes jumpInleft{
+    0%{
+        transform: translate(-10rem , 0);
+        opacity: 0;
+    }
+    80%{
+        transform: translate(1rem , 0);
+    }
+    100%{
+        transform: translate(0 , 0);
+        opacity: 1;
+    }
+}
+@keyframes jumpInright{
+    0%{
+        transform: translate(10rem , 0);
+        opacity: 0;
+    }
+    80%{
+        transform: translate(-1rem , 0);
+    }
+    100%{
+        transform: translate(0 , 0);
+        opacity: 1;
+    }
+}
+
+@keyframes jumpInbottom{
+    0%{
+        transform: translateY(5rem);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
